@@ -137,7 +137,7 @@ function ArchiveSerie(serieId) {
       
     >
       {console.log(serie)}
-            {/* {serie.title}{" "}*/}<a href={`https://previously-j970uhwv4-alexel972s-projects.vercel.app/serie/${serie.id}`}>{serie.title}</a>
+            {/* {serie.title}{" "}*/}<a href={`https://previously-on-seven.vercel.app/serie/${serie.id}`}>{serie.title}</a>
             <button id={`fav-${serie.id}`} onClick={() => FavSerie(serie.id)}>+</button>
             {hoveredSerie && hoveredSerie.id === serie.id && (
               <div className="serie-details">
