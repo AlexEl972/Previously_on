@@ -6,7 +6,7 @@ function OAuthPage() {
   const [accessToken, setAccessToken] = useState("");
   const client_id = "bba558a60c3e";
   const client_secret = "ab16e5f148eac990e2e4efd566bb4566";
-  const redirect_uri = "https://previously-on-deploy.vercel.app/login";
+  const redirect_uri = "https://previously-on-deploy1.vercel.app/";
 
   useEffect(() => {
     const redirectToAuthorization = () => {
